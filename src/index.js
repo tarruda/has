@@ -1,6 +1,5 @@
-var hasOwn = Object.prototype.hasOwnProperty;
-
+var hasOwn = Function.call.bind(Object.prototype.hasOwnProperty);
 
 module.exports = function has(obj, property) {
-  return hasOwn.call(obj, property);
+  return hasOwn(obj, property);
 };
