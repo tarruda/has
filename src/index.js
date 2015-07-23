@@ -1,6 +1,3 @@
-Function.prototype.bind = require("function-bind");
-var hasOwn = Object.prototype.hasOwnProperty;
+var bind = require('function-bind');
 
-module.exports = function has(obj, property) {
-  return hasOwn(obj, property);
-};
+module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
