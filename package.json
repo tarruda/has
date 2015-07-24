@@ -21,6 +21,9 @@
     }
   ],
   "main": "./src/index",
+  "dependencies": {
+    "function-bind": "^1.0.2"
+  },
   "devDependencies": {
     "chai": "~1.7.2",
     "mocha": "^1.21.4"
@@ -30,8 +33,5 @@
   },
   "scripts": {
     "test": "node_modules/mocha/bin/mocha"
-  },
-  "dependencies": {
-    "function-bind": "^1.0.2"
   }
 }
