@@ -21,18 +21,17 @@
       "url": "https://github.com/tarruda/has/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "./src/index",
+  "main": "./src",
   "dependencies": {
     "function-bind": "^1.1.1"
   },
   "devDependencies": {
-    "chai": "~1.7.2",
-    "mocha": "^1.21.4"
+    "tape": "^4.9.0"
   },
   "engines": {
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha"
+    "test": "tape test"
   }
 }
