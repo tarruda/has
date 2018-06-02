@@ -26,12 +26,16 @@
     "function-bind": "^1.1.1"
   },
   "devDependencies": {
+    "@ljharb/eslint-config": "^12.2.1",
+    "eslint": "^4.19.1",
     "tape": "^4.9.0"
   },
   "engines": {
     "node": ">= 0.8.0"
   },
   "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
     "test": "tape test"
   }
 }
