@@ -1,7 +1,7 @@
 {
   "name": "has",
   "description": "Object.prototype.hasOwnProperty.call shortcut",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/tarruda/has",
   "author": {
     "name": "Thiago de Arruda",
