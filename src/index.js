@@ -1,5 +1,3 @@
 'use strict';
 
-var bind = require('function-bind');
-
-module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
+module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
