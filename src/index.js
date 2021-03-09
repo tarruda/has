@@ -1,5 +1,6 @@
 'use strict';
 
+const hasOwnProperty = Object.prototype.hasOwnProperty;
 module.exports = function (object, property) {
-  return Object.prototype.hasOwnProperty.call(object, property);
+  return hasOwnProperty.call(object, property);
 };
