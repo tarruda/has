@@ -29,9 +29,6 @@
     }
   ],
   "main": "./src",
-  "dependencies": {
-    "function-bind": "^1.1.1"
-  },
   "devDependencies": {
     "@ljharb/eslint-config": "^12.2.1",
     "eslint": "^4.19.1",
