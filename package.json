@@ -28,7 +28,7 @@
       "url": "https://github.com/tarruda/has/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "./src",
+  "main": "src/index.js",
   "dependencies": {
     "function-bind": "^1.1.1"
   },
