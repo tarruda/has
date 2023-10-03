@@ -7,13 +7,6 @@
     "name": "Thiago de Arruda",
     "email": "tpadilha84@gmail.com"
   },
- "contributors": [
-    {
-      "name": "Jordan Harband",
-      "email": "ljharb@gmail.com",
-      "url": "http://ljharb.codes"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/tarruda/has.git"
@@ -30,7 +23,6 @@
   ],
   "main": "./src",
   "devDependencies": {
-    "@ljharb/eslint-config": "^12.2.1",
     "eslint": "^4.19.1",
     "tape": "^4.9.0"
   },

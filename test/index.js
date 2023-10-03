@@ -10,7 +10,7 @@ test('has', function (t) {
     has(null, 'throws');
   }, TypeError, 'calling has on null throws TypeError');
   t['throws'](function () {
-    has(void 0, 'throws');
+    has(undefined, 'throws');
   }, TypeError, 'calling has on undefined throws TypeError');
   t.end();
 });
